@@ -1,0 +1,88 @@
+h1{
+  color: rgb(89, 127, 209);
+}
+
+p{
+  font-size: 20px;
+  text-align: center;
+  color: A3B18A;
+  line-height: 2;
+}
+
+.card-white img{
+    border-radius: 50%;
+}
+
+.btn-blue{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 2;
+  text-align: justify;
+  padding: 10px;
+  background-color: rgb(89, 127, 209);
+}
+
+.list-inline{
+  padding-left: 0;
+}
+
+.list-inline li{
+  display: inline;
+  padding: 5px;
+}
+
+.list-inline a{
+  text-decoration: none;
+}
+
+.list-inline i{
+  font-size: 40px;
+  color: rgb(89, 127, 209);
+}
+
+.list-inline i:hover {
+  color: rgb(0, 33, 106);
+}
+
+.btn-blue{
+  color: 000814;
+  font-size: 20px;
+  line-height: 2;
+  text-align: center;
+}
+
+.btn-blue:hover {
+  background-color: rgb(4, 49, 148);
+}
+
+.card-white{
+  background-color: rgb(234, 224, 216);
+  padding: 30px;
+  margin: 40px auto;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 2px 8px 8px rgba(0,0,0,.2);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.container{
+  margin: auto;
+}
